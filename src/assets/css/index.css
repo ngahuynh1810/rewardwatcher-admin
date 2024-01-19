@@ -1,0 +1,109 @@
+.button_upload_file  {
+    position: relative;
+    cursor: pointer;
+    margin-bottom:  1rem
+}
+.input_upload_file  {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.row_item_with_image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.row_item_with_image img {
+    width: 100px;
+    height: 60px;
+    margin-left: 4px;
+    object-fit: contain;
+}
+.container_login {
+    background-color: #ffffff;
+    min-height: 80%;
+    margin-top: 20%;
+    padding: 4rem;
+    border-radius: 0.3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tox-notifications-container {
+    display: none;
+}
+.label_text_field {
+    /* color: #637381; */
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.img_on_column {
+    width: 100px;
+    object-fit: contain;
+    height: 60px;
+}
+.section_title {
+    padding: 16px 8px 8px 12px;
+    font-size: .8rem;
+    margin-bottom: 4px;
+    color: rgb(145, 158, 171);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.scrolling_carousel_charaters  {
+ margin: 0px 8px;
+}
+.scrolling_carousel_charaters div{
+ gap: 16px;
+ margin: 8px 0px;
+}
+.character {
+    margin: 0 0.5rem;
+    color: #464b5b;
+    font-weight: 400;
+    line-height: 32px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: solid 1px #b9b9b9;
+    border-radius: 9999px;
+    background-color: #f2f2f2;
+    height: 34px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 34px;
+    padding: 6px 14px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.selected_character  {
+    font-weight: 700;
+    line-height: 32px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: solid 1px #2065d1;
+    border-radius: 9999px;
+    /* background-color: #f2f2f2; */
+    padding: 6px 14px;
+    height: 34px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #2065d1;
+    color: #fff;
+}
+.expired_coupon {
+    color: red
+}
+@media (min-width: 1600px) {
+ .MuiContainer-root {
+    max-width: unset;
+}
+}
